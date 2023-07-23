@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Online Admission, Madhya Pradesh Higher Education Portal</title>
+    <style type="text/css">
+      .loader {
+        display: flex;
+        font-size: 2em;
+        margin: 260px;
+      }
+
+      .loader .dots {
+        display: flex;
+        position: relative;
+        top: 20px;
+        left: -10px;
+        width: 100px;
+        -webkit-animation: dots 4s ease infinite 1s;
+        animation: dots 4s ease infinite 1s;
+      }
+
+      .loader .dots div {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        border-radius: 100%;
+        /*background-color: black;*/
+      }
+
+      .loader .dots div:nth-child(1) {
+        width: 0px;
+        height: 0px;
+        margin: 5px;
+        margin-right: 15px;
+        -webkit-animation: show-dot 4s ease-out infinite 1s;
+        animation: show-dot 4s ease-out infinite 1s;
+      }
+
+      .loader .dots div:nth-child(4) {
+        background-color: transparent;
+        -webkit-animation: dot-fall-left 4s linear infinite 1s;
+        animation: dot-fall-left 4s linear infinite 1s;
+      }
+
+      .loader .dots div:nth-child(4):before {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        border-radius: 100%;
+        background-color: red;
+        content: "";
+        -webkit-animation: dot-fall-top 4s cubic-bezier(0.46, 0.02, 0.94, 0.54)
+          infinite 1s;
+        animation: dot-fall-top 4s cubic-bezier(0.46, 0.02, 0.94, 0.54) infinite
+          1s;
+      }
+
+      @-webkit-keyframes dots {
+        0% {
+          left: -10px;
+        }
+
+        20%,
+        100% {
+          left: 10px;
+        }
+      }
+
+      @keyframes dots {
+        0% {
+          left: -10px;
+        }
+
+        20%,
+        100% {
+          left: 10px;
+        }
+      }
+
+      @-webkit-keyframes show-dot {
+        0%,
+        20% {
+          width: 0px;
+          height: 0px;
+          margin: 5px;
+          margin-right: 15px;
+        }
+
+        30%,
+        100% {
+          width: 10px;
+          height: 10px;
+          margin: 0px;
+          margin-right: 10px;
+        }
+      }
+
+      @keyframes show-dot {
+        0%,
+        20% {
+          width: 0px;
+          height: 0px;
+          margin: 5px;
+          margin-right: 15px;
+        }
+
+        30%,
+        100% {
+          width: 10px;
+          height: 10px;
+          margin: 0px;
+          margin-right: 10px;
+        }
+      }
+
+      @-webkit-keyframes dot-fall-left {
+        0%,
+        5% {
+          left: 0px;
+        }
+
+        100% {
+          left: 200px;
+        }
+      }
+
+      @keyframes dot-fall-left {
+        0%,
+        5% {
+          left: 0px;
+        }
+
+        100% {
+          left: 200px;
+        }
+      }
+
+      @-webkit-keyframes dot-fall-top {
+        0%,
+        5% {
+          top: 0px;
+        }
+
+        30%,
+        100% {
+          top: 50vh;
+        }
+      }
+
+      @keyframes dot-fall-top {
+        0%,
+        5% {
+          top: 0px;
+        }
+
+        30%,
+        100% {
+          top: 50vh;
+        }
+      }
+
+      .header {
+        /*/*min-width: 1000px;*/
+        width: 100%;
+        height: 71px;
+        /*background-image: url('/ql_EP/images/header_bg.jpg');*/
+        background-color: #fff;
+        background-image: url("/ql_EP/images/cream-pixels.png");
+        -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+        box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+      }
+
+      .container-fluid {
+        /*min-width: 1000px;*/
+        width: 100%;
+        padding: 0 15px;
+      }
+
+      .serviceLogo {
+        padding: 3px 0;
+      }
+
+      .mpoLogo {
+        padding: 10px 0;
+      }
+
+      .floatLeft {
+        float: left;
+      }
+
+      .floatRight {
+        float: right;
+      }
+
+      .mainHead {
+        padding: 5px;
+        margin-bottom: 20px;
+        background-color: #eee;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .footer {
+        /*min-width: 1000px;*/
+        background-color: #4b82cf;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        font-size: 11px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ClearFix"></div>
+    <div class="mainHead">
+      <div class="loader">
+        <div style="font-weight: bold; font-size: 30px; color: deepskyblue">
+          Wait....
+        </div>
+        <div class="dots">
+          <div style="background-color: #03a9f4"></div>
+          <div style="background-color: #ff9800"></div>
+          <div style="background-color: #76ca14"></div>
+          <div></div>
+        </div>
+        <div>
+          <h3>
+            We are facing some technical issue and team is working on it with
+            vendor. We will be back by 4pm. Sorry for inconvenience...!
+          </h3>
+        </div>
+      </div>
+
+      <br />
+      <br />
+    </div>
+  </body>
+</html>

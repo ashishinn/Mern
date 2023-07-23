@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card's</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .contentbox {
+            /* background-color: #fff; */
+            width: 80%;
+            /* border-radius: 10px solid black; */
+            height: 75%;
+            display: flex;
+            flex-direction: rows;
+            /* border-radius: 50px; */
+            transition: all 0.8s linear;
+        }
+        .contentbox:hover{
+            scale: 0.9855;
+        }
+        .leftbox {
+            height: 100%;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background-color: rgb(116, 49, 113);
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 70px;
+            /* justify-content:space-around; */
+            gap: 50px;
+            transition: all .6s linear;
+            /* margin: 20px; */
+        }
+
+        .rightbox {
+            height: 100%;
+            /* background-color: yellow; */
+            width: 50%;
+        }
+
+        .rightbox img {
+            width: 100%;
+            height: 100%;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #head h1 {
+            color: #fff;
+            font-size: 3.4em;
+            font-weight: bold;
+            /* content: justification; */
+            /* font-weight: larger; */
+            text-align: center;
+        }
+
+        #para p {
+            margin-left: 70px;
+            margin-right: 70px;
+            color: #fff;
+            text-align: justify;
+            font-size: large;
+
+        }
+
+        #statbox {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            color: #fff;
+            margin-top: 30px;
+        }
+
+        .leftbox:hover {
+            opacity: 1;
+            background-color: rgba(90, 87, 87, 0.821);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="contentbox">
+
+            <div class="leftbox">
+
+
+
+
+                <div id="head">
+                    <h1>Get insights that help your business grow</h1>
+                </div>
+
+
+
+
+                <div id="para">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur molestiae odit, quibusdam
+                        optio neque eveniet tenetur sunt. Distinctio ut officiis qui necessitatibus ratione!</p>
+                </div>
+
+
+
+                <div id="statbox">
+
+                    <div id="placeme">
+                        <h2>10K+</h2>
+                        <p>Placements</p>
+                    </div>
+                    <div id="users">
+                        <h2>214</h2>
+                        <p>Paid Users</p>
+
+                    </div>
+                    <div id="views">
+                        <h2>12M+</h2>
+                        <p>Views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox"><img src="123-1233415_hiring-ui-ux-designer-hd-png-download.png" alt=""></div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

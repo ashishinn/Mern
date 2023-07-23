@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root{
+        --primary-color: brown;
+        --custom-width:330px;
+
+      }
+      .container {
+        background-color: beige;
+        height: 650px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+
+        /* --primary-color: brown;
+        --custom-width:330px; */
+        background-color: aquamarine;
+        width: var( --custom-width);
+        height: 330px;
+        border: 1px solid var( --primary-color);
+        margin: 5px;
+        padding: 5px;
+        overflow: hidden;
+        /* box-shadow: -5px 5px var( --primary-color); */
+        /* box-shadow: 10px 15px 50px rgb(34, 209, 215); */
+        /* box-shadow: 10px 15px 5px 15px rgb(135, 235, 255);  */
+
+        /* box-shadow: inset 10px 15px rgb(252, 0, 0);  */
+
+        /* box-shadow: 10px 15px red , 15px 19px green ; */
+      }
+      #head1{
+        /* text-shadow: 2px 2px 3px red ; */
+        /* text-shadow: yellow 12px 13px 1px; */
+
+        text-shadow: white 12px 13px  ;
+        text-shadow: 12px 13px;
+/* mutiple text shadow in text  */
+
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="bhagatsingh.jpeg" alt="" />
+
+        <h2 id="head1">Welcome to Portfolio</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          adipisci eveniet provident veniam praesentium tempore ab dolore minus
+          sint, accusamus itaque iusto, enim minima officiis qui nemo at
+          voluptatibus porro molestias necessitatibus? Voluptatem, optio quam
+          rem nulla est magni perferendis. Quaerat cupiditate dolorum dolores
+          eum sequi accusamus molestiae velit praesentium.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

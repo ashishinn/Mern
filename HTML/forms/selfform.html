@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form >
+ <fieldset>
+
+        <legend>Personal details</legend>
+
+        <label for="salute">Salutation</label>
+        <br>
+        <select name="salute" id="salute">
+            <option value="--None--">--None--</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+
+        </select>
+
+
+<br><br>
+
+<label for="fname">First name:</label>
+<input type="text" name="fname" id="fname">
+
+<br><br>
+
+<label for="lname">Last name:</label>
+<input type="text" name="lname" id="lname">
+
+
+<br><br>
+
+<label for="">Gender:</label>
+
+<input type="radio" name="gender" id="r1">
+<label for="r1">Male</label>
+
+
+
+<input type="radio" name="gender" id="r2">
+<label for="r2">Female</label>
+
+<br><br>
+
+<label for="mail">Email:</label>
+<input type="email" name="Email" id="mail">
+
+<br><br>
+
+<label for="dob">Date of birth:</label>
+<input type="date" name="dob" id="dob">
+<br><br>
+
+<label for="addr">Address:</label><br>
+<textarea name="addr" id="addr" cols="30" rows="5"></textarea>
+<br><br>
+<button>Submit</button>
+ </fieldset>
+
+    </form>
+
+
+
+
+
+
+
+    <br><br><br><br><br>
+
+
+<form>
+    <fieldset>
+<legend>Customer</legend>
+
+<label for="nme">Name</label>
+<input type="text" id="nme" required>
+<br><br>
+
+<label for="ail">Email</label>
+<input type="email" id="ail">
+
+<br><br>
+
+<label for="inv">Investment</label>
+
+<select name="inv" id="inv">
+    <option value="blank"></option>
+    <option value="nft">NFT</option>
+<option value="rstate">Real State</option>
+<option value="gld">Gold</option>
+<option value="cows">Cows</option></select>
+<br><br>
+
+<label for="joindte">Date Joined</label>
+<input type="date" id="joindte">
+<br><br>
+
+<label for="che">Active</label>
+<input type="checkbox" name="" id="che">
+
+</fieldset>
+<pre>    <button>OK</button> <button>Cancel</button>
+
+
+
+</pre>
+
+
+</form>
+
+
+
+</body>
+</html>

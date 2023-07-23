@@ -1,0 +1,66 @@
+:root{
+    --text-shadow:rgb(241, 203, 203);
+}
+#title {
+  /* font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 40px; */
+  color: green;
+  text-shadow: 2px 3px 2px var( --text-shadow) ;
+}
+#main {
+  background-color: rgb(205, 255, 243);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#img {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+#caption {
+  display: flex;
+  justify-content: center;
+}
+#tribute-data{
+    /* text-align: center; */
+    box-shadow: 4px 5px 10px 3px brown;
+   background-color: rgb(185, 199, 255);
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-left: 270px;
+    margin-top: 20px;
+    color: brown;
+    /* align-items: center; */
+}
+.title-APJ{
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 3px 2px var( --text-shadow);
+    color: green;
+
+}
+#caption{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: large;
+}
+/* }
+@media (min-width: 400px){
+
+#main{
+    display: flex;
+    flex-direction: start;
+}
+} */
