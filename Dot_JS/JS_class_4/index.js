@@ -174,16 +174,3 @@ console.log("PRINTING TOTAL SUM");
 console.log(totalsum);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
