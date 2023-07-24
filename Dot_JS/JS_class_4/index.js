@@ -149,15 +149,40 @@
 
 // console.log(a);
 
-function a(){
-    const a = 5;
-}
+// function a(){
+//     const a = 5;
+// }
 
-const ab = 5;
+// const ab = 5;
 
-function b(){
-    const a = 5;       
-}
+// function b(){
+//     const a = 5;       
+// }
+
+
+let arr = [-1,-2,-3,-4];
+// let total = 0;
+
+// for(let value of arr)
+// total = total + value;
+
+// console.log(total);
+
+
+let totalsum = arr.reduce((accumulator ,currentValue) =>accumulator + currentValue,0);
+console.log("PRINTING TOTAL SUM");
+console.log(totalsum);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
