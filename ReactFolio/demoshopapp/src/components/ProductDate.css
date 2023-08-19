@@ -1,0 +1,17 @@
+.product-date {
+    width: 120px;
+  background-color: black;
+  border-radius: 10px;
+}
+.product-date__month {
+  font-size: large;
+  color: #fff;
+}
+.product-date__year{
+    font-size: large;
+  color: #fff;
+}
+.product-day__day{
+    font-size: large;
+  color: #fff;
+}
